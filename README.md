@@ -68,3 +68,5 @@ MongoDb is used to create sample database of users, transactions, and books.
 DEPLOYMENT LINK FOR SERVER:
 
 https://bookmanagementapi-p6dr.onrender.com/
+
+https://bookmanager88.netlify.app/
