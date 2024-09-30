@@ -1,0 +1,72 @@
+[
+    {
+      "userId": "user_id_1",
+      "bookName": "The Great Gatsby",
+      "issue_date": "2024-09-01T10:00:00.000Z",
+      "return_date": "2024-09-08T14:30:00.000Z",
+      "rent": 70
+    },
+    {
+      "userId": "user_id_2",
+      "bookName": "1984",
+      "issue_date": "2024-09-02T11:15:00.000Z",
+      "return_date": "2024-09-09T16:45:00.000Z",
+      "rent": 84
+    },
+    {
+      "userId": "user_id_3",
+      "bookName": "To Kill a Mockingbird",
+      "issue_date": "2024-09-03T09:30:00.000Z",
+      "return_date": null,
+      "rent": 0
+    },
+    {
+      "userId": "user_id_4",
+      "bookName": "The Hobbit",
+      "issue_date": "2024-09-04T14:00:00.000Z",
+      "return_date": "2024-09-11T10:30:00.000Z",
+      "rent": 63
+    },
+    {
+      "userId": "user_id_5",
+      "bookName": "Pride and Prejudice",
+      "issue_date": "2024-09-05T16:45:00.000Z",
+      "return_date": "2024-09-12T18:15:00.000Z",
+      "rent": 49
+    },
+    {
+      "userId": "user_id_6",
+      "bookName": "Brave New World",
+      "issue_date": "2024-09-06T13:30:00.000Z",
+      "return_date": null,
+      "rent": 0
+    },
+    {
+      "userId": "user_id_7",
+      "bookName": "The Catcher in the Rye",
+      "issue_date": "2024-09-07T11:00:00.000Z",
+      "return_date": "2024-09-14T12:45:00.000Z",
+      "rent": 70
+    },
+    {
+      "userId": "user_id_8",
+      "bookName": "Harry Potter and the Sorcerer's Stone",
+      "issue_date": "2024-09-08T10:15:00.000Z",
+      "return_date": "2024-09-15T15:30:00.000Z",
+      "rent": 70
+    },
+    {
+      "userId": "user_id_9",
+      "bookName": "The Lord of the Rings",
+      "issue_date": "2024-09-09T09:45:00.000Z",
+      "return_date": null,
+      "rent": 0
+    },
+    {
+      "userId": "user_id_10",
+      "bookName": "One Hundred Years of Solitude",
+      "issue_date": "2024-09-10T15:30:00.000Z",
+      "return_date": "2024-09-17T17:00:00.000Z",
+      "rent": 70
+    }
+  ]
