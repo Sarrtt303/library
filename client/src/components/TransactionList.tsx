@@ -21,7 +21,7 @@ const TransactionList: React.FC = () => {
     const fetchTransactions = async () => {
       setLoading(true);
       try {
-        const response = await axios.get('http://localhost:5000/api/transactions');
+        const response = await axios.get('https://bookmanagementapi-p6dr.onrender.com/api/transactions');
         setTransactions(response.data);
       } catch (err) {
         setError('Error fetching transactions');

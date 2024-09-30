@@ -3,7 +3,7 @@
 Endpoints added for better filtering of data:
 
 - **GET** `/books?term=Harry`  
-  (Searches a term, case-sensitive and dynamic)
+  (Searches a name)
 
 - **GET** `/books?minRent=20&maxRent=50`
 
@@ -32,6 +32,23 @@ Endpoints added for better filtering of data:
   (Get books issued within a date range)
 
 
+   **POST** `/api/transactions/issue`
+
+   sample data for issuing a book using the endpoint:
+
+   `{
+  "userId": "user_id_5",
+  "bookName": "The Great Gatsby"
+    }`
+
+    
+    sample data for returning a book using the endpoint:
+
+    {
+  "userId": "12345",
+  "bookName": "The Great Gatsby",
+  "return_date": "2024-09-30"
+}
 
      
 
@@ -48,3 +65,6 @@ MongoDb is used to create sample database of users, transactions, and books.
 
 #NOTE: User authentication and creation was not set up, so the /issue and /return will only work on user ids of existing users in the list.#
 
+DEPLOYMENT LINK FOR SERVER:
+
+https://bookmanagementapi-p6dr.onrender.com/

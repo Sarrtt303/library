@@ -20,7 +20,7 @@ const BookList: React.FC = () => {
     setLoading(true); // Start loading
 
     try {
-      const response = await axios.get('http://localhost:5000/api/books', {
+      const response = await axios.get('https://bookmanagementapi-p6dr.onrender.com/api/books', {
         params: {
           term,  // Only filter by the search term
         },
@@ -38,7 +38,7 @@ const BookList: React.FC = () => {
     const fetchBooks = async () => {
       setLoading(true);
       try {
-        const response = await axios.get('http://localhost:5000/api/books');
+        const response = await axios.get('https://bookmanagementapi-p6dr.onrender.com/api/books');
         setBooks(response.data);
       } catch (error) {
         console.error('Error fetching books', error);
